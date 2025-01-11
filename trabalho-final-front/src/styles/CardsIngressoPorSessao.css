@@ -1,0 +1,26 @@
+.poltrona-number {
+    display: inline-block;
+    background-color: #62b84d; /* Cor amarela pastel */
+    padding: 0.2em 0.5em; /* Ajuste o padding conforme necessário */
+    border-radius: 4px; /* Borda arredondada */
+  }
+  .card-body {
+    display: flex;
+    align-items: start; /* Alinha os itens ao topo */
+}
+
+.card-img-container {
+    flex: 0 0 120px; /* Tamanho fixo para a imagem */
+    overflow: hidden; /* Previne que a imagem 'vaze' */
+}
+
+.card-img-container img {
+    width: 100%; /* Faz a imagem preencher o container */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível sem distorcer */
+}
+
+.card-info {
+    flex: 1; /* Ocupa o restante do espaço */
+    padding-left: 15px; /* Espaço entre a imagem e o texto */
+}

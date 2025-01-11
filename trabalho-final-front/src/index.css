@@ -1,0 +1,26 @@
+body {
+    overflow-y: scroll;
+    background-color: #000000;
+}
+
+.mt-4 {
+    color: white !important;
+
+}
+
+.btn-vermelho {
+    background-color: rgb(155, 7, 7) !important;
+    color: white;
+    font-weight: bold;
+}
+
+.w {
+    color: white;
+}
+
+.titulo-ingressos {
+    font-size: 30px;
+    border-left: 3px solid rgb(155, 7, 7);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}

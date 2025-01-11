@@ -1,0 +1,13 @@
+.navbar-background {
+    background-color: #000000; /* Cor de fundo preto */
+}
+
+.navbar-background .nav-link,
+.navbar-background .navbar-brand,
+.navbar-background .navbar-nav .dropdown-menu {
+    color: white !important;
+}
+
+.navbar-background .nav-dropdown .dropdown-item {
+    color: white !important;
+}
